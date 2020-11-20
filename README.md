@@ -19,4 +19,13 @@ To solve this problem, we tried a second model using feedforward neural network.
 After, we tried to construct new variables. However, we did not achieve a lower log loss. In this part of the project it would be of a great help if we could talk with someone that grasps drugs development.\
 Considering new variables, we only got luck when using unobserved learning. With it we were able to group some drugs considering only the cell variables.
 
-To help in the navigation of this project, here is a briefly description of each file or paste.
+To help in the navigation of this project, here is a briefly description of each file or paste.\
+The "data analysis" paste maybe is the most important part. Here we can find some studies about our data.\
+"results 1 - lightgbm test" was a test model just to see if it were viable to make one model per MoA considering the nine hour time limit.\
+"results 2 - LightGBM hyperparametrization" is the development of the model with graphs justifying the hyper parameters.\
+"results 3 - LightGBM PCA" it was a test using principal component analysis and the development of new variables.\
+"results 4 - Feedforward" it is a feedforward neural network model and its hyper parameters.\
+"results 5 - FNN new variables" it is the FNN model with some new variables considering the difference between the treatment and control group.\
+"results 6 - FNN unsupervised learning" a FNN model with new variables based in unsupervised learning.\
+"results 7 - FNN noscored" a FNN adding information about the probabilities of other mechanisms of action that are not scored.\
+"MoA_model_Feedforward Kaggle - Final" is the code for the final model used in Kaggle. In the end, the best model was a FNN with one hidden layer and without any new variables or transformormantion of the variables. 
